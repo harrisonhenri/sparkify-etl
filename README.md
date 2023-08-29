@@ -26,6 +26,7 @@ To install and run the project locally, first, add a .env file (based on the .en
 2. Install the dependencies with:
 
 ```=sh
+pip install poetry
 python -m venv venv
 poetry install
 ```
@@ -39,10 +40,7 @@ jupyter notebook
 ## Built with
 
 <div>
-<img align="left" alt="ReactJs" width="68px" style="margin-left:1em" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png" />
-<img align="left" alt="Typescript" width="68px" style="margin-left:1em" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png" />
-<img align="left" alt="Redux" width="68px" style="margin-left:1em" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/redux/redux.png" />
-<img align="left" alt="Vite" width="68px" style="margin-left:1em" src="./public/vite.svg" />
-<img align="left" alt="Sass" width="68px" style="margin-left:1em" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png" />
+<img align="left" alt="Redshift" width="60px" style="margin-left:1em; margin-top:10px" src="https://upload.wikimedia.org/wikipedia/commons/7/73/Amazon-Redshift-Logo.svg" />
+<img align="left" alt="S3" width="90px" style="margin-left:1em" src="https://cdn.iconscout.com/icon/free/png-512/free-amazon-s3-2968702-2464706.png?f=avif&w=512" />
 <br /><br /><br /><br />
 </div>
