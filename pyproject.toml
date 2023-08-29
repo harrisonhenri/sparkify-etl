@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "sparkify-etl"
+version = "0.1.0"
+description = ""
+authors = ["HarrisonHenri <harrisonhenrisn@gmail.com>"]
+readme = "README.md"
+packages = [{include = "sparkify_etl"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+psycopg2 = "^2.9.7"
+black = "^23.7.0"
+numpy = "^1.25.2"
+boto3 = "^1.28.35"
+pandas = "^2.0.3"
+ipython-sql = "0.4.1"
+jupyter-black = "^0.3.4"
+sqlalchemy-redshift = "^0.8.14"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
