@@ -4,12 +4,33 @@ from sql_queries import copy_table_queries, insert_table_queries
 
 
 def load_staging_tables(cur, conn):
+    """
+    Ingest the source data in all staging tables
+
+    Args:
+        cur: (cursor) instance of cursor class
+        conn: (connection) instance of connection class
+
+    Returns:
+        none
+    """
+
     for query in copy_table_queries:
         cur.execute(query)
         conn.commit()
 
 
 def insert_tables(cur, conn):
+    """
+    Populate all tables of the schema
+
+    Args:
+        cur: (cursor) instance of cursor class
+        conn: (connection) instance of connection class
+
+    Returns:
+        none
+    """
     for query in insert_table_queries:
         cur.execute(query)
         conn.commit()
